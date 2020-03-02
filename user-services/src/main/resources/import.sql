@@ -1,0 +1,1 @@
+INSERT INTO USERS (login) VALUES ('marta'), ('ola'), ('fasola');
