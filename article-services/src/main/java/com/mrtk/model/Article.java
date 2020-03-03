@@ -8,8 +8,11 @@ public class Article {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private long id;
+    @Column(name = "title")
     private String title;
+    @Column(name = "user_id")
     private long user_id;
 
     public long getId() {
